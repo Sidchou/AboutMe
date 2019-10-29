@@ -8,13 +8,6 @@ let question_words = ["how", "what", "where", "when", "why"];
 let adv_verbs = ["can", "do"];
 
 let firebaseConfig = {
-    apiKey: "AIzaSyA8HPBmzyUaI7IfjLfXShc1qzjuQzc8BEw",
-    authDomain: "aboutme-f30b6.firebaseapp.com",
-    databaseURL: "https://aboutme-f30b6.firebaseio.com",
-    projectId: "aboutme-f30b6",
-    storageBucket: "aboutme-f30b6.appspot.com",
-    messagingSenderId: "92114102053",
-    appId: "1:92114102053:web:4739ac7581e2b698891ccc"
 };
 firebase.initializeApp(firebaseConfig);
 let ref = firebase.app().database().ref();
